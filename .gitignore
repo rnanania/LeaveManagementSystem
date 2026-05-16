@@ -1,0 +1,28 @@
+## Build output
+bin/
+obj/
+
+## SQLite database (contains live data, not source)
+*.db
+*.db-shm
+*.db-wal
+
+## User-specific Visual Studio / Rider files
+*.user
+.vs/
+.idea/
+*.suo
+
+## ASP.NET Core user secrets (contains sensitive local config)
+**/Properties/launchSettings.json
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+.nuget/
+
+## Logs
+*.log
