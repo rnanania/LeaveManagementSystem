@@ -1,0 +1,25 @@
+@model LeaveManagementSystem.Web.Models.AboutViewModel
+
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">Application</dt>
+            <dd class="col-sm-8">@Model.AppName</dd>
+
+            <dt class="col-sm-4">Version</dt>
+            <dd class="col-sm-8">@Model.Version</dd>
+
+            <dt class="col-sm-4">Description</dt>
+            <dd class="col-sm-8">@Model.Description</dd>
+
+            <dt class="col-sm-4">Contact</dt>
+            <dd class="col-sm-8"><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></dd>
+        </dl>
+    </div>
+</div>
